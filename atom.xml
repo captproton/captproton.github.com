@@ -4,11 +4,11 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Mister Bleigh</title>
+ <title>Capt. Proton</title>
  <link href="http://captproton.github.com/atom.xml" rel="self"/>
  <link href="http://www.captproton.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://www.captproton.com/</id>
+ <id>http://blogcaptproton.captproton.com/</id>
  <author>
    <name>Carl Tanner</name>
    <email>captproton@captproton.com</email>
