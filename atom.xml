@@ -6,7 +6,7 @@ layout: nil
  
  <title>Capt. Proton</title>
  <link href="http://captproton.github.com/atom.xml" rel="self"/>
- <link href="http://www.captproton.com/"/>
+ <link href="http://captproton.github.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://blogcaptproton.captproton.com/</id>
  <author>
