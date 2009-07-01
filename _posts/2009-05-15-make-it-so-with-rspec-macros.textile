@@ -7,7 +7,7 @@ So I had heard a number of times about writing RSpec macros (like those in the f
 
 First of all, "this is a great resource":http://www.benmabey.com/2008/06/08/writing-macros-in-rspec/ to get started with how to write the actual macros (or custom matchers) themselves. What tripped me up was how to actually include them in my examples; monkeypatching is never a clean process and even though I knew from the comments on that post that there was a public API for doing it, as with many things about RSpec how to do it didn't seem immediately obvious.
 
-In my case, I was looking to define a quick @login!@ macro that would allow me to easily create a before block to log in as a specified user or just as a FactoryGirl generated one in a "TwitterAuth":http://github.com/mbleigh/twitter-auth based app. Here's the module I wrote and stuck in my @spec_helper.rb@:
+In my case, I was looking to define a quick @login!@ macro that would allow me to easily create a before block to log in as a specified user or just as a FactoryGirl generated one in a "TwitterAuth":http://github.com/captproton/twitter-auth based app. Here's the module I wrote and stuck in my @spec_helper.rb@:
 
 <pre class='code' name='ruby'>module LoginMacro
   def login!(user=Factory(:user))

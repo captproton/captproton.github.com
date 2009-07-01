@@ -11,7 +11,7 @@ First, "Peter Cooper":http://www.petercooper.co.uk/ was kind enough to submit a 
 
 Secondly, the much requested support for Single Table Inheritance is finally in! It was just a matter of using a class inheritable attribute instead of a class instance variable, and big thanks to "slainer68":http://www.nicolasblanco.fr/ for hunting that down and taking the time to submit a patch.
 
-If there's anything you've hacked on to Acts As Taggable On, I urge you to submit a patch to the "Lighthouse Project":http://mbleigh.lighthouseapp.com/projects/10116-acts-as-taggable-on. I try to get new patches integrated into the codebase as quickly as possible, so please do submit anything!
+If there's anything you've hacked on to Acts As Taggable On, I urge you to submit a patch to the "Lighthouse Project":http://captproton.lighthouseapp.com/projects/10116-acts-as-taggable-on. I try to get new patches integrated into the codebase as quickly as possible, so please do submit anything!
 
 During the "Community Code Drive":http://wiki.oreillynet.com/railsconf2008/index.cgi?CommunityProjectCodeDrive at RailsConf two great features were added: taggers and related objects.
 
@@ -53,11 +53,11 @@ h3. Gemified!
 
 Acts As Taggable On now works as a GemPlugin in Rails. This is a new way (as of Rails 2.1) of distributing plugins as gems and having them still automatically link up and do their magic. To use it as a gem, add it to your <code>config/environment.rb</code> like so:
 
-<pre name="code" class="ruby">config.gem "mbleigh-acts-as-taggable-on", :source => "http://gems.github.com", :lib => "acts-as-taggable-on"</pre>
+<pre name="code" class="ruby">config.gem "captproton-acts-as-taggable-on", :source => "http://gems.github.com", :lib => "acts-as-taggable-on"</pre>
 
 Now you should be able to get the latest version of the plugin just by running <code>rake gems:install</code>. However, this hasn't been working for me so the alternative is just to install the gem directly:
 
-<pre><code>gem install mbleigh-acts-as-taggable-on --source http://gems.github.com/</pre>
+<pre><code>gem install captproton-acts-as-taggable-on --source http://gems.github.com/</pre>
 
 Now when you run your Rails app, even though it's not in vendor/plugins it should be running! To make sure, look for this line on startup:
 

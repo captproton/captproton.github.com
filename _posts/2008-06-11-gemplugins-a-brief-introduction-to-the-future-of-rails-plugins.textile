@@ -21,7 +21,7 @@ First, you will need to include the dependency in your <code>environment.rb</cod
 
 <pre name="code" class="ruby"># in environment.rb
   
-config.gem "mbleigh-acts-as-taggable-on", :source => "http://gems.github.com", :lib => "acts-as-taggable-on"</pre>
+config.gem "captproton-acts-as-taggable-on", :source => "http://gems.github.com", :lib => "acts-as-taggable-on"</pre>
 
 This is the standard usage of gem dependencies, and for more info on this you can "see Ryan Daigle's post":http://ryandaigle.com/articles/2008/4/1/what-s-new-in-edge-rails-gem-dependencies or "watch the RailsCast on the subject":http://railscasts.com/episodes/110. Now assuming that you don't already have the gem in question installed, it's simple to grab it:
 
@@ -35,7 +35,7 @@ Now that you know how to **use** a GemPlugin, I'll show you how you can take an 
 
 h3. Making a GemPlugin
 
-Let's say I have a plugin called <code>awesome_fu</code> that lives on GitHub at <code>mbleigh/awesome-fu</code>. I've already released this plugin, it works great, and now I want to make it compatible with GemPlugins.
+Let's say I have a plugin called <code>awesome_fu</code> that lives on GitHub at <code>captproton/awesome-fu</code>. I've already released this plugin, it works great, and now I want to make it compatible with GemPlugins.
 
 First, let's create a "gemspec":http://www.rubygems.org/read/chapter/20 called <code>awesome-fu.gemspec</code> in line with the requirements for the "GitHub Gem Repository":http://gems.github.com. In order to make the file list, I usually find it's easiest to "<code>find **</code>" in the plugin directory, then copy it into "TextMate":http://www.macromates.com/, make the modifications I need for manifest (using a regular expression to quote each of the files), and saving it in the spec. If you have only a few files in your plugin, it may be easier just to add them by hand.
 

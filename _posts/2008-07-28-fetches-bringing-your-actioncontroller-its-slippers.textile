@@ -43,15 +43,15 @@ h3. Installation
 Fetches is available as a gem as well as in traditional plugin format. To install
 as a gem, add this to your environment.rb:
 
-<pre name="code" class="ruby">config.gem 'mbleigh-fetches', :source => 'http://gems.github.com', :lib => "fetches"</pre>
+<pre name="code" class="ruby">config.gem 'captproton-fetches', :source => 'http://gems.github.com', :lib => "fetches"</pre>
   
 To install it as a traditional plugin:
 
-<pre><code>script/plugin install git://github.com/mbleigh/fetches.git</pre>
+<pre><code>script/plugin install git://github.com/captproton/fetches.git</pre>
 
 h3. Resources
 
-The source is "available on GitHub":http://github.com/mbleigh/fetches, the "Acts As Community project":http://actsascommunity.com/projects/fetches is there for general discussion, and "the Lighthouse":http://mbleigh.lighthouseapp.com/projects/14793-fetches/overview is there for bugs and feature suggestions.
+The source is "available on GitHub":http://github.com/captproton/fetches, the "Acts As Community project":http://actsascommunity.com/projects/fetches is there for general discussion, and "the Lighthouse":http://captproton.lighthouseapp.com/projects/14793-fetches/overview is there for bugs and feature suggestions.
 
 *UPDATE:* A commenter requested that the plugin be able to handle creation of new records in addition to fetching existing records. I have added in the @:initialize@ option to do just this. Examples:
 

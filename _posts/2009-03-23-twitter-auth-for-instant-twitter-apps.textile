@@ -17,7 +17,7 @@ TwitterAuth is available as a GemPlugin, so the preferred way to install it is s
 
 You can also choose to install it as a traditional Rails plugin:
 
-<pre name='code'>script/plugin install git://github.com/mbleigh/twitter-auth.git</pre>
+<pre name='code'>script/plugin install git://github.com/captproton/twitter-auth.git</pre>
 
 Once you've installed it, you're ready to create a new application using TwitterAuth!
 
@@ -29,9 +29,9 @@ TwitterAuth uses Rails 2.3 Engine support to completely encapsulate the login pr
 
 This generates a User class, a migration, and <code>twitter_auth.yml</code>. You will need to edit <code>twitter_auth.yml</code> to match the settings of your application, such as providing the OAuth client token and secret.
 
-Once you've migrated, that's it! You are up and running with Twitter authentication; just point users at <code>/login</code> to start the process (login and registration are handled in a single step). For more detailed usage information including how to access the Twitter API through TwitterAuth, take a look at "the README file":http://github.com/mbleigh/twitter-auth.
+Once you've migrated, that's it! You are up and running with Twitter authentication; just point users at <code>/login</code> to start the process (login and registration are handled in a single step). For more detailed usage information including how to access the Twitter API through TwitterAuth, take a look at "the README file":http://github.com/captproton/twitter-auth.
 
-The source for TwitterAuth is "available on GitHub":http://github.com/mbleigh/twitter-auth. I have also created a "Lighthouse Project":http://mbleigh.lighthouseapp.com/projects/27783-twitterauth for the reporting of any bugs you may come across. There is also a "basic homepage":http://mbleigh.com/twitter-auth/ that will be listing who's using TwitterAuth.
+The source for TwitterAuth is "available on GitHub":http://github.com/captproton/twitter-auth. I have also created a "Lighthouse Project":http://captproton.lighthouseapp.com/projects/27783-twitterauth for the reporting of any bugs you may come across. There is also a "basic homepage":http://captproton.com/twitter-auth/ that will be listing who's using TwitterAuth.
 
 If you're pretty familiar with Rails authentication systems (particularly "Restful Authentication":http://github.com/technoweenie/restful-authentication), this is probably all you need to know to get started. Go forth and make awesome apps! If not, I've written a quick run-through of the whole process to make it easy for *anyone* to get started with Twitter apps.
 
@@ -123,4 +123,4 @@ h3. See You At RailsConf!
 
 <a href='http://en.oreilly.com/rails2009/public/schedule/detail/8517' target='_blank'><img src="http://assets.en.oreilly.com/1/event/24/rails2009_banner_speaking_210x60.jpg" width="210" height="60"  border="0"  alt="RailsConf 2009" title="RailsConf 2009" /></a>
 
-TwitterAuth is a big part of what I will be talking about at RailsConf in my session "'Twitter on Rails'":http://en.oreilly.com/rails2009/public/schedule/detail/8517. if you're interested in the plugin and attending RailsConf in May I hope you'll stop by; I'll be building an entire Twitter application from scratch during the 45 minute presentation. Also, feel free to "follow me on Twitter":http://twitter.com/mbleigh if you're so inclined.
+TwitterAuth is a big part of what I will be talking about at RailsConf in my session "'Twitter on Rails'":http://en.oreilly.com/rails2009/public/schedule/detail/8517. if you're interested in the plugin and attending RailsConf in May I hope you'll stop by; I'll be building an entire Twitter application from scratch during the 45 minute presentation. Also, feel free to "follow me on Twitter":http://twitter.com/captproton if you're so inclined.

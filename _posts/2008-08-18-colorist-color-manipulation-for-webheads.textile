@@ -53,4 +53,4 @@ red.contrast_with("green".to_color) # => 0.500653594771242</pre>
 
 h3. Get Coloring!
 
-That's most of the basic functionality, for all of the details you can "view the RDoc on RubyForge":http://colorist.rubyforge.org/. The "source is available on GitHub":http://github.com/mbleigh/colorist and there is a "Lighthouse project":http://mbleigh.lighthouseapp.com/projects/15686-colorist for any bugs or feature requests. Enjoy!
+That's most of the basic functionality, for all of the details you can "view the RDoc on RubyForge":http://colorist.rubyforge.org/. The "source is available on GitHub":http://github.com/captproton/colorist and there is a "Lighthouse project":http://captproton.lighthouseapp.com/projects/15686-colorist for any bugs or feature requests. Enjoy!

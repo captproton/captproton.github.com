@@ -87,11 +87,11 @@ h3. Installation
 SubdomainFu is available both as a traditional plugin and as a GemPlugin
 for Rails 2.1 and later. For a traditional plugin, install like so:
 
-<pre>script/plugin install git://github.com/mbleigh/subdomain-fu.git</pre>
+<pre>script/plugin install git://github.com/captproton/subdomain-fu.git</pre>
 
 For a GemPlugin, add this dependency to your @environment.rb@:
 
-<pre>config.gem 'mbleigh-subdomain-fu', :source => "http://gems.github.com/", :lib => "subdomain-fu"</pre>
+<pre>config.gem 'captproton-subdomain-fu', :source => "http://gems.github.com/", :lib => "subdomain-fu"</pre>
 
 h3. Implementing A Simple Account Key System
 
@@ -137,5 +137,5 @@ add conditional subdomain routes to your @routes.rb@ file. Keep an eye
 out for more on that in the future.
 
 In the meantime, the project will live at its home on "Acts As Community":http://www.actsascommunity.com/projects/subdomain-fu/ for intermittent
-updates, "is available on GitHub":http://github.com/mbleigh/subdomain-fu/ as always, and bugs/feature requests may
-be passed on through the "Lighthouse":http://mbleigh.lighthouseapp.com/projects/13148-subdomain-fu.
+updates, "is available on GitHub":http://github.com/captproton/subdomain-fu/ as always, and bugs/feature requests may
+be passed on through the "Lighthouse":http://captproton.lighthouseapp.com/projects/13148-subdomain-fu.

@@ -49,11 +49,11 @@ h3. Installation
 
 UberKit is available both as a gem and a traditional plugin. For the gem version, add this to your @environment.rb@:
 
-<pre name="code" class="ruby">config.gem 'mbleigh-uberkit', :source => "http://gems.github.com/", :lib => "uberkit"</pre>
+<pre name="code" class="ruby">config.gem 'captproton-uberkit', :source => "http://gems.github.com/", :lib => "uberkit"</pre>
 
 Or as a traditional plugin:
 
-<pre><code>script/plugin install git://github.com/mbleigh/uberkit.git</pre>
+<pre><code>script/plugin install git://github.com/captproton/uberkit.git</pre>
 
 h3. Future of the UberKit
 
@@ -61,4 +61,4 @@ While *UberMenu* is a useful tool, the *UberKit* will continue to grow over time
 
 h3. Resources
 
-As always, the "source is on GitHub":http://github.com/mbleigh/uberkit and there is an "Acts As Community Profile":http://www.actsascommunity.com/projects/uberkit available as well. If you have any problems with it or would like to request new features, "enter them on the Lighthouse project":http://mbleigh.lighthouseapp.com/projects/13921-uberkit/overview.
+As always, the "source is on GitHub":http://github.com/captproton/uberkit and there is an "Acts As Community Profile":http://www.actsascommunity.com/projects/uberkit available as well. If you have any problems with it or would like to request new features, "enter them on the Lighthouse project":http://captproton.lighthouseapp.com/projects/13921-uberkit/overview.

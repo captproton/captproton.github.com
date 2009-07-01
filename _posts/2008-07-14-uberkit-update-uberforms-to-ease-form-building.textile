@@ -71,11 +71,11 @@ h3. Installation
 
 To install the UberKit (which "includes more than just forms":http://www.intridea.com/tags/uberkit) you can do so either as a gem or a traditional plugin. As a gem, just add this to your environment.rb:
 
-<pre name="code" class="ruby">config.gem 'mbleigh-uberkit', :lib => 'uberkit', :source => 'http://gems.github.com'</pre>
+<pre name="code" class="ruby">config.gem 'captproton-uberkit', :lib => 'uberkit', :source => 'http://gems.github.com'</pre>
 
 As a traditional Rails plugin:
 
-<pre><code>script/plugin install git://github.com/mbleigh/uberkit.git</pre>
+<pre><code>script/plugin install git://github.com/captproton/uberkit.git</pre>
 
 h3. The Future of the UberKit
 
