@@ -7,7 +7,7 @@ Blogs are simple pieces of software. It's the penultimate "sample application" t
 
 When "GitHub announced support for user pages":http://github.com/blog/272-github-pages I knew in the back of my mind that this was going to be a big deal. At the time I didn't really know how it could be used for a blog since it seemed to just serve up static pages, but I definitely liked what I was hearing. After a couple of months went by, I finally decided to take the plunge and see what I could accomplish. Surprisingly, everything I wanted in a blog!
 
-h3. Dead Simple Publishing
+###Dead Simple Publishing
 
 GitHub Pages are as simple as:
 
